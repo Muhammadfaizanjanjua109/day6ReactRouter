@@ -1,9 +1,14 @@
 import React from 'react'
-
+import Main from './Main'
+import Navbar from './Navbar'
 function Home() {
   return (
-    <div>This is Home Page</div>
+   <>
+    <Navbar/>
+   <Main/>
+</>
   )
 }
+
 
 export default Home
